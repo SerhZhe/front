@@ -1,0 +1,13 @@
+.profile{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 100px;
+    align-items: center;
+    width: 100vw;
+    min-height: Calc(100vh - 100px);
+}
+.profile h4{
+    font-size: 24px;
+}
