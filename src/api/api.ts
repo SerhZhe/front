@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {clearStorages, getFromLocalStorage, saveToLocalStorage} from './tokenStorage';
 import toast from 'react-hot-toast';
-const url = `http://localhost:8080/`;
+const url = `https://back-w4j2.onrender.com/`;
 const access_token = getFromLocalStorage('TOKEN');
 const config = {
     headers: {
